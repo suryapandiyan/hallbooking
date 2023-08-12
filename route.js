@@ -8,7 +8,7 @@ const {
 } = require("./bookingHall");
 
 router.get("/", (req, res) => {
-  res.status(200).send("start");
+  res.status(200).send("Welcome to Hall Booking App");
 });
 
 router.get("/getrooms", (req, res) => {
